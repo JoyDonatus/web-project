@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+section, .introDiv, .introDiv > div, .edu, .container{
+    width: 100%;
+}
+
+.introDiv{
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    text-align: right !important;
+}
+
+h6, .introDiv p, .introDiv a{
+    color: #2E5A82;
+}
+
+.introDiv span{
+    color: #979797;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    color: #000000;
+}
+
+
